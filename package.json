@@ -1,0 +1,21 @@
+{
+  "name": "contextual-help",
+  "version": "1.0.0",
+  "description": "Simple backend example to store and retrieve contextual help.",
+  "main": "app.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon  -r dotenv/config app.js"
+  },
+  "author": "zCon Solutions",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mariadb": "^2.1.0",
+    "sequelize": "^5.19.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "nodemon": "^1.19.1"
+  }
+}
